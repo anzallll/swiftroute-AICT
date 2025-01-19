@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="LOGO-removebg-preview.png" alt="Swift Route Logo" width="100" height="50">
+            </a>
+    
+            <!-- Mobile Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Navbar Items -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ticketbooking.html">Ticket Booking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="route.html">Routes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+    
+            <!-- Get Started Button -->
+            <a href="#" class="btn btn-primary d-none d-lg-block">Get Started</a>
+        </div>
+    </nav>
+    
+
+<!-- Hero Section with Slider -->
+<div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image: url('pixelcut-export.jpeg');">
+            <div class="carousel-caption">
+                <h1>Welcome to Our Website</h1>
+                <p>Discover amazing services and seamless experiences.<br>We are here to make your journey better.</p>
+                <a href="#" class="btn-read-more">Read More</a>
+            </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('pixelcut-export\ \(1\).jpeg">
+            <div class="carousel-caption">
+                <h1>Reliable & Fast Services</h1>
+                <p>Our services ensure a smooth and efficient experience.<br>Book your tickets with ease.</p>
+                <a href="#" class="btn-read-more">Read More</a>
+            </div>
+        </div>
+        <div class="carousel-item"style="background-image: url('iiiiiii22222.jpg');">
+            <div class="carousel-caption">
+                <h1>Plan Your Next Trip</h1>
+                <p>Explore different routes and find the best deals.<br>Your journey starts here.</p>
+                <a href="#" class="btn-read-more">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+<!-- Footer Section -->
+<footer class="footer text-white text-center py-4">
+    <div class="container">
+        <div class="row">
+            <!-- Column 1: About Us -->
+            <div class="col-md-4">
+                <h5>About Us</h5>
+                <p>Swift Route provides the best travel solutions with seamless ticket booking and route planning.</p>
+            </div>
+
+            <!-- Column 2: Quick Links -->
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="index.html" class="text-light text-decoration-none">Home</a></li>
+                    <li><a href="about.html" class="text-light text-decoration-none">About Us</a></li>
+                    <li><a href="ticketbooking.html" class="text-light text-decoration-none">Ticket Booking</a></li>
+                    <li><a href="route.html" class="text-light text-decoration-none">Routes</a></li>
+                    <li><a href="contact.html" class="text-light text-decoration-none">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Contact Info -->
+            <div class="col-md-4">
+                <h5>Contact Us</h5>
+                <p><i class="bi bi-geo-alt-fill"></i> Karachi, Sindh, Pakistan</p>
+                <p><i class="bi bi-envelope-fill"></i> support@swiftroute.com</p>
+                <p><i class="bi bi-phone-fill"></i> +92 33721 24564</p>
+            </div>
+        </div>
+
+        <hr class="border-light">
+
+        <!-- Social Media Icons -->
+        <div class="text-center my-3">
+            <a href="#" class="text-light mx-2"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-light mx-2"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-light mx-2"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-light mx-2"><i class="bi bi-linkedin"></i></a>
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="text-center">
+            <p class="mb-0">&copy; 2025 Swift Route. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
